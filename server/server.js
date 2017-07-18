@@ -17,7 +17,7 @@ io.on('connection',(socket)=>{
 })
 
 
-server.listen(3000,()=>{
+server.listen(port,()=>{
     console.log(`Service is up on port ${port}`)
 })
 
