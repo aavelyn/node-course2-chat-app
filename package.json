@@ -6,7 +6,6 @@
   "scripts": {
     "start": "npm run build:live",
     "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./server/index.ts"
-    // "postinstall": "npm run compile"
   },
   "engines": {
     "node": "8.1.3"
